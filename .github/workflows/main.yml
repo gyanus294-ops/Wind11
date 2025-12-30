@@ -11,7 +11,7 @@ jobs:
 
     steps:
 name: Downloading & Installing Essentials
-        run: |
+        run: 
           Invoke-WebRequest -Uri "https://www.dropbox.co..." -OutFile "Downloads.bat"
           cmd /c Downloads.bat
 
